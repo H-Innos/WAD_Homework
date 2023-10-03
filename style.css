@@ -1,0 +1,133 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar   */
+
+nav {
+    z-index: 1;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+li.navitem {
+    float: left;
+    position: relative;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+}
+
+li.navitem:hover {
+    background-color: #111;
+    color: white;
+}
+
+li.navitem>a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+nav li>img {
+    float: right;
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-between;
+    margin-top: 50px;
+    height: 100%;
+}
+
+.content {
+    position: inherit;
+    width: 40%;
+    height: 100%;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.post {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+}
+
+ul.post-header, ul.post-footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;   
+}
+
+ul.post-header li {
+    float: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}   
+
+ul.post-header li img {
+    width: 50px;
+    height: 50px;
+}
+
+.post p {
+    margin: 0px 39px;
+    padding: 0;
+    text-align: justify;
+}
+
+ul.post-footer li {
+    float: left;
+    padding: 14px 27px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+ul.post-footer li img {
+    width: 25px;
+    height: 25px;
+}
+
