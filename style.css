@@ -74,14 +74,14 @@ footer {
     justify-content: space-between;
 }
 
-aside {
+.container>aside {
     margin: 0 10px;
     width: 20%;
     background-color: #333;
     border-radius: 10px;
 }
 
-main {
+.container>main {
     display: flex;
     flex-direction: column;
     overflow: auto;
@@ -136,10 +136,10 @@ ul.post-footer li img {
 }
 
 @media (max-width: 600px) {
-    main {
+    .container > main {
         width: 90%;
     }
-    aside{
+    .container > aside{
         display: none;
       }
 }
@@ -148,10 +148,10 @@ ul.post-footer li img {
     header{
         justify-content: center; 
       }
-    main {
+    .container > main {
         width: 80%;
     }
-    aside {
+    .container > aside {
         width: 10%;
     }
     .container {
