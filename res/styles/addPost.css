@@ -1,0 +1,50 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: gray;
+    padding: 10px;
+}
+
+label {
+    padding-right: 10px;
+    text-align: right;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+input[type="file"] {
+    color: gray;
+    font-size: 1em;
+}
+
+input[type="file"]::file-selector-button {
+    width: auto;
+    padding: 8px;
+    background-color: #515151;
+    color: white;
+    border: none;
+    font-family: inherit;
+}
+
+input[type="submit"] {
+    width: auto;
+    padding: 8px;
+    background-color: #203070;
+    color: white;
+    border: none;
+    font-size: 1em;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
