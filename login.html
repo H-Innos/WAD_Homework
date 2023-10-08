@@ -8,6 +8,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        
+        <header>
+            <nav>
+                <ul class="navbar">
+                    <li class="navitem"><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+            <img src="res/img/no-profile-picture-icon.png" alt="icon">
+        </header>
+
+        <div class="main">
+            <div class="container">
+                <p><strong>Welcome to PostIt</strong><br></p>
+                <a href="login.html">Create an account</a>
+                <p>or</p>
+                <p>Please log in</p>
+                <div class="logIn">
+                    <form action="index.html"> 
+                        <input type="text" id="emailField" name="email" placeholder="Email"><br>
+                        <input type="password" id="passwordField" name="password" placeholder="Password"><br>
+                        <input type="submit" id="loginButton" value="Log in" disabled>
+                    </form>
+                </div>
+                <a href="login.html">Forgot password?</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="res/js/login.js"></script>
     </body>
 </html>

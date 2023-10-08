@@ -1,0 +1,67 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: gray;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+.logintext {
+    text-decoration: none;
+    text-align: center;
+}
+
+div > a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+p ~ a:hover {
+    text-decoration: underline;
+}
+
+div + a {
+    font-size: 90%
+}
+
+p strong {
+    font-size: 110%;
+}
+
+#loginButton {
+    width: auto;
+    padding: 8px;
+    background-color: #203070;
+    color: white;
+    border: none;
+    font-size: 1em;
+    font-family: inherit;
+    text-decoration: none;
+}
+
+#loginButton:disabled {
+    background-color: #586082;
+}
+
+#loginButton:hover:enabled {
+    background-color: #131e47;
+}
+
+input[type="text"] {
+    font-size: inherit;
+    font-family: inherit;
+    width: 80%;
+}
+
+input[type="password"] {
+    font-size: inherit;
+    font-family: inherit;
+    width: 80%;
+}
