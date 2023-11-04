@@ -52,6 +52,7 @@ p strong {
 
 #loginButton:hover:enabled {
     background-color: #131e47;
+    cursor: pointer;
 }
 
 input[type="text"] {

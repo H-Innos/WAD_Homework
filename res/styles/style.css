@@ -44,15 +44,52 @@ li.navitem>a {
     text-decoration: none;
 }
 
-header img {
+.icon {
+    background-color: #333;
+    background: none;
+    border: none;
     display: block;
     float: right;
     width: 49px;
     height: 49px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.icon>img {
+    width: 47px;
+    height: 47px;
+}
+
+#personalInfo {
+    position: absolute;
+    display: none;
+    right: 5px;
+    top: 45px;
+    align-items: center;
+    margin: 5px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.dropdown {
+    margin: 5px;
+    color: white;
+    list-style: none;
+}
+
+.logout>a{
+    color: darkblue;
 }
   
 @media (max-width: 800px) {
     header{
         justify-content: center; 
       }
+
+    #personalInfo {
+        right: 32.25%
+    }
 }
