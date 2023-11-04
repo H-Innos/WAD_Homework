@@ -1,0 +1,84 @@
+{
+    "posts": [
+        {
+            "author_name": null,
+            "profile_picture": null,
+            "date": "2023-10-22",
+            "content_type": "text",
+            "text_content": "test post 1",
+            "image_content": null 
+        },
+        {
+            "author_name": null,
+            "profile_picture": null,
+            "date": "2023-10-22",
+            "content_type": "image",
+            "text_content": null,
+            "image_content": "res/img/testpilt1.png" 
+        },
+        {
+            "author_name": null,
+            "profile_picture": null,
+            "date": "2023-10-22",
+            "content_type": "text",
+            "text_content": "test post 2",
+            "image_content": null 
+        },
+        {
+            "author_name": null,
+            "profile_picture": null,
+            "date": "2023-10-22",
+            "content_type": "mixed",
+            "text_content": "dog",
+            "image_content": "res/img/testpilt2.jpg" 
+        },
+        {
+            "author_name": null,
+            "profile_picture": null,
+            "date": "2023-06-15",
+            "content_type": "text",
+            "text_content": "longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext",
+            "image_content": null 
+        },
+        {
+            "author_name": null,
+            "profile_picture": null,
+            "date": "2023-05-23",
+            "content_type": "mixed", 
+            "text_content": "mike",
+            "image_content": "res/img/testpilt3.png"
+        },
+        {
+            "author_name": null,
+            "profile_picture": null,
+            "date": "2023-05-22",
+            "content_type": "text",
+            "text_content": "test post 3",
+            "image_content": null 
+        },
+        {
+            "author_name": null,
+            "profile_picture": null,
+            "date": "2023-04-13",
+            "content_type": "image",
+            "text_content": null,
+            "image_content": "res/img/testpilt4.png" 
+        },
+        {
+            "author_name": null,
+            "profile_picture": null,
+            "date": "2023-03-03",
+            "content_type": "text",
+            "text_content": "test post 4",
+            "image_content": null 
+        },
+        {
+            "author_name": null,
+            "profile_picture": null,
+            "date": "2023-01-01",
+            "content_type": "text",
+            "text_content": "test post 5",
+            "image_content": null 
+        }
+    ]
+}

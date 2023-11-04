@@ -55,12 +55,12 @@ ul.post-header li {
     font-size: 17px;
 }   
 
-ul.post-header li img {
+ul.post-header li>img {
     width: 50px;
     height: 50px;
 }
 
-.post p {
+.post div p {
     position: relative;
     width: 100%;
     overflow: visible;
@@ -68,7 +68,7 @@ ul.post-header li img {
     text-align: justify;
 }
 
-.post p img {
+.post div img {
     display: block;
     max-width: 70%;
     max-height: 400px;
