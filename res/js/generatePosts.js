@@ -1,7 +1,9 @@
 // json validator: https://jsonlint.com/
 
 const binId = '65464abf54105e766fcb5347';
-const jsonbinUrl = 'https://api.jsonbin.io/v3/b/65464abf54105e766fcb5347';
+
+//const jsonbinUrl = 'https://api.jsonbin.io/v3/b/65464abf54105e766fcb5347'; // fetch posts.json from remote
+const jsonbinUrl = 'posts.json'; // fetch posts.json from local file
 
 document.addEventListener('DOMContentLoaded', function () {
     fetch(jsonbinUrl, {
@@ -17,8 +19,11 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .then(data => {
             console.log(data);
-            if (data.record.posts) {
-                createPosts(data.record.posts);
+            if(data.record)
+                data = data.record;
+
+            if (data.posts) {
+                createPosts(data.posts);
             } else {
                 console.error("JSON data missing the posts property");
             }
